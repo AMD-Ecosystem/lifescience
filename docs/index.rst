@@ -31,5 +31,5 @@ The documentation is structured as follows:
 
   .. grid-item-card:: Related content
 
-    * `ROCm-LS blogs <https://instinct.docs.amd.com/latest/life-science/ROCmLS-Blogs.html>`_
+    * `ROCm-LS blogs <https://rocm.blogs.amd.com/software-tools-optimization/rocm-ls-intro/README.html>`_
     * :ref:`rocm-ls-contribution`
