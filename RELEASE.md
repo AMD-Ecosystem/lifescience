@@ -6,7 +6,7 @@ The release notes provide a summary of notable changes since the previous AMD Li
 
 The following are notable new features and improvements in AMD Life Science 26.10 since the release of 26.08. For detailed changes to individual components, see [detailed component changes](#detailed-component-changes).
 
-- geometric-nn-ops 0.1.0: This is the first release of geometric-nn-ops. geometric-nn-ops is a library of Triton GPU kernels for protein structure prediction models such as OpenFold3. The same kernel source runs on AMD GPUs with ROCm. The release adds fused triangle attention, the triangle multiplicative update, attention with pair bias, fp32 precision control, and a `hipequivariance-ops-torch` compatibility package.
+- geometric-nn-ops 1.0.0: This is the first release of geometric-nn-ops. geometric-nn-ops is a library of Triton GPU kernels for protein structure prediction models such as OpenFold3. The same kernel source runs on AMD GPUs with ROCm. The release adds fused triangle attention, the triangle multiplicative update, attention with pair bias, fp32 precision control, and a `hipequivariance-ops-torch` compatibility package.
 
 ## AMD Life Science components
 
@@ -54,7 +54,7 @@ The following table lists the versions of AMD Life Science components for AMD Li
             <tr>
                 <td>AI/ML</td>
                 <td><a href="https://advanced-micro-devices-demo--26.com.readthedocs.build/projects/geometric-nn-ops/en/26/">geometric-nn-ops</a></td>
-                <td><a href="#geometric-nn-ops-0-1-0">0.1.0</a></td>
+                <td><a href="#geometric-nn-ops-1-0-0">1..0.0</a></td>
                 <td><a href="https://github.com/ROCm/geometric-nn-ops"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
         </tbody>
@@ -69,7 +69,7 @@ hipCIM, MONAI on ROCm, MONAI Model Zoo, and MONAILabel versions remain unchanged
 
 The following sections describe changes to the AMD Life Science components.
 
-### geometric-nn-ops (0.1.0)
+### geometric-nn-ops (1.0.0)
 
 This release is the first release of geometric-nn-ops and includes the following enhancements:
 
