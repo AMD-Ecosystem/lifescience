@@ -54,7 +54,7 @@ The following table lists the versions of AMD Life Science components for AMD Li
             <tr>
                 <td>AI/ML</td>
                 <td><a href="https://advanced-micro-devices-demo--26.com.readthedocs.build/projects/geometric-nn-ops/en/26/">geometric-nn-ops</a></td>
-                <td><a href="#geometric-nn-ops-1-0-0">1..0.0</a></td>
+                <td><a href="#geometric-nn-ops-1-0-0">1.0.0</a></td>
                 <td><a href="https://github.com/ROCm/geometric-nn-ops"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
         </tbody>
