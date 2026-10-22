@@ -21,8 +21,8 @@ The matrix lists AMD Life Science compatibility and system requirements across r
    +----------------------------+--------------------------------------+-------------------+--------------+----------------+----------------+
    |  AMD Life Science version  |  Supported component                 | AMD Instinct™ GPU | ROCm version | Ubuntu version | Python version |
    +============================+======================================+===================+==============+================+================+
-   | :version-start:`26.10`     | `geometric-nn-ops 1.0.0              | MI355X,           | 10.0.0       | 24.04          | 3.12           |
-   |                            | <https://github.com/ROCm/            | MI325X,           |              |                |                |
+   | :version-start:`26.10`     | `geometric-nn-ops 1.0.0              | MI355X,           | 10.1.0,      | 24.04          | 3.12           |
+   |                            | <https://github.com/ROCm/            | MI325X,           | 10.0.0       |                |                |
    |                            | geometric-nn-ops>`_                  | MI300X            |              |                |                |
    +----------------------------+--------------------------------------+-------------------+--------------+----------------+----------------+
    | :version-start:`26.08`     | `hipCIM 26.06.00                     | MI355X,           | 10.0.0       | 24.04          | 3.12           |
