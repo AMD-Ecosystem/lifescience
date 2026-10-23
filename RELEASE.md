@@ -4,7 +4,7 @@ AMD Life Science 26.10 adds geometric-nn-ops 1.0.0. The release adds fused trian
 
 ```{note}
     
-hipCIM, MONAI on ROCm, MONAI Model Zoo, and MONAILabel are only available in the [AMD Life Science 26.08](https://rocm.docs.amd.com/projects/lifescience/en/docs-26.08/) release.
+hipCIM, MONAI on ROCm, MONAI Model Zoo, and MONAILabel are available in the [AMD Life Science 26.08](https://rocm.docs.amd.com/projects/lifescience/en/docs-26.08/) release.
 
 ```
 
@@ -35,7 +35,7 @@ The following table lists the versions of AMD Life Science components for AMD Li
         <tbody class="rocm-components-libs rocm-components-ml">
             <tr>
                 <td>AI/ML</td>
-                <td><a href="https://advanced-micro-devices-demo--26.com.readthedocs.build/projects/geometric-nn-ops/en/26/">geometric-nn-ops</a></td>
+                <td><a href="https://rocm.docs.amd.com/projects/geometric-nn-ops/en/docs-26.10/">geometric-nn-ops</a></td>
                 <td><a href="#geometric-nn-ops-1-0-0">1.0.0</a></td>
                 <td><a href="https://github.com/ROCm/geometric-nn-ops"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
@@ -45,7 +45,7 @@ The following table lists the versions of AMD Life Science components for AMD Li
 
 ```{note}
 
-hipCIM, MONAI on ROCm, MONAI Model Zoo, and MONAILabel are only available in the [AMD Life Science 26.08](https://rocm.docs.amd.com/projects/lifescience/en/docs-26.08/) release.
+hipCIM, MONAI on ROCm, MONAI Model Zoo, and MONAILabel are available in the [AMD Life Science 26.08](https://rocm.docs.amd.com/projects/lifescience/en/docs-26.08/) release.
 
 ```
 
