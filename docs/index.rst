@@ -16,6 +16,7 @@ The AMD Life Science libraries provide the following tools for life science acce
 - **MONAI on ROCm**: An open-source framework that brings deep learning for medical imaging to AMD GPU platforms.
 - **MONAI Model Zoo**: A collection of MONAI Bundle models with AMD ROCm inference overlays for validated segmentation workloads on AMD Instinct™ GPUs.
 - **MONAILabel**: An interactive medical image labeling framework with Early Access AMD GPU support on ROCm.
+- **geometric-nn-ops**: A GPU kernel library for geometry-aware neural networks, including triangle operations for protein structure prediction.
 
 These tools are integrated into a comprehensive workflow for scientific imaging pipelines that accelerates image I/O and transformation operations for supported whole slide images on AMD GPUs.
 
@@ -28,6 +29,7 @@ These tools are integrated into a comprehensive workflow for scientific imaging 
     - `MONAI on ROCm <https://rocm.docs.amd.com/projects/monai/en/docs-26.08/>`_
     - `MONAI Model Zoo on ROCm <https://rocm.docs.amd.com/projects/monai-model-zoo/en/docs-26.08/>`_
     - `MONAILabel <https://rocm.docs.amd.com/projects/monailabel/en/docs-26.08/>`_
+    - `geometric-nn-ops <https://advanced-micro-devices-demo--26.com.readthedocs.build/projects/geometric-nn-ops/en/26/>`_
 
   .. grid-item-card:: Related content
 

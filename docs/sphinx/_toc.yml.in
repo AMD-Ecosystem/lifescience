@@ -20,6 +20,8 @@ subtrees:
     title: MONAI Model Zoo
   - url: https://rocm.docs.amd.com/projects/monailabel/en/docs-26.08/
     title: MONAILabel
+  - url: https://advanced-micro-devices-demo--26.com.readthedocs.build/projects/geometric-nn-ops/en/26/
+    title: geometric-nn-ops
 
 - caption: Related content
   entries:

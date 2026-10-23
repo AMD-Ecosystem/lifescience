@@ -3,6 +3,19 @@ import os
 import shutil
 import re
 
+import rocm_docs.theme as rocm_theme
+
+def _parse_version(version_string):
+    """Keep name: version lines and drop a line that has no colon."""
+    parsed = {}
+    for line in (version_string or "").splitlines():
+        name, separator, version = line.partition(":")
+        if separator and name.strip() and version.strip():
+            parsed[name.strip()] = version.strip()
+    return parsed
+
+rocm_theme._parse_version = _parse_version
+
 shutil.copy2("../RELEASE.md", "./about/release-notes.md")
 
 html_baseurl = os.environ.get("READTHEDOCS_CANONICAL_URL", "rocm.docs.amd.com")
@@ -11,9 +24,9 @@ if os.environ.get("READTHEDOCS", "") == "True":
     html_context["READTHEDOCS"] = True
 project = "ROCm for Life Science"
 
-version = "26.08"
+version = "26.10"
 release = version
-html_title = "AMD Life Science 26.08 documentation"
+html_title = "AMD Life Science 26.10 documentation"
 author = "Advanced Micro Devices, Inc."
 copyright = "Copyright (c) 2026 Advanced Micro Devices, Inc. All rights reserved."
 setting_all_article_info = True
@@ -33,7 +46,7 @@ there exists a non-null value mapped to docs_header_version, then the header in
 the documentation page will contain the given version string.
 '''
 html_context = {
-    "docs_header_version": "26.08"
+    "docs_header_version": "26.10"
 }
 
 html_static_path = ["sphinx/static/css"]
