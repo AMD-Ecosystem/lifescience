@@ -29,7 +29,7 @@ These tools are integrated into a comprehensive workflow for scientific imaging 
     - `MONAI on ROCm <https://rocm.docs.amd.com/projects/monai/en/docs-26.08/>`_
     - `MONAI Model Zoo on ROCm <https://rocm.docs.amd.com/projects/monai-model-zoo/en/docs-26.08/>`_
     - `MONAILabel <https://rocm.docs.amd.com/projects/monailabel/en/docs-26.08/>`_
-    - `geometric-nn-ops <https://advanced-micro-devices-demo--26.com.readthedocs.build/projects/geometric-nn-ops/en/26/>`_
+    - `geometric-nn-ops <https://rocm.docs.amd.com/projects/geometric-nn-ops/en/docs-26.10/>`_
 
   .. grid-item-card:: Related content
 
