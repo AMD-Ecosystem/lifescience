@@ -18,7 +18,7 @@ The AMD Life Science libraries provide the following tools for life science acce
 - **MONAILabel**: An interactive medical image labeling framework with Early Access AMD GPU support on ROCm.
 - **geometric-nn-ops**: A GPU kernel library for geometry-aware neural networks, including triangle operations for protein structure prediction.
 
-These tools are integrated into a comprehensive workflow for scientific imaging pipelines that accelerates image I/O and transformation operations for supported whole slide images on AMD GPUs.
+These tools are integrated into a comprehensive workflow supporting a variety of life science applications on AMD GPUs.
 
 .. grid:: 2
   :gutter: 3
@@ -35,4 +35,4 @@ These tools are integrated into a comprehensive workflow for scientific imaging 
 
     - :doc:`contribute/contribution`
 
-For ready-to-run code samples that demonstrate AMD Life Science capabilities on the AMD ROCm platform, see the `AMD Life Science examples <https://github.com/AMD-Ecosystem/lifescience/examples>`_.
+For ready-to-run code samples that demonstrate AMD Life Science capabilities on the AMD ROCm platform, see the `AMD Life Science examples <https://github.com/AMD-Ecosystem/lifescience-examples>`_.
