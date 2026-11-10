@@ -1,5 +1,6 @@
 # Custom debug environment setup script for VS Code (used by scripts/debug_python)
 /_build
+_toc.yml
 
 ## VSCode IDE
 .vscode
