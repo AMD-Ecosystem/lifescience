@@ -17,3 +17,5 @@ To contribute to AMD Life Science, follow the contribution guidelines for each c
 - `Contributing to MONAILabel <https://github.com/AMD-Ecosystem/MONAILabel/blob/amd-develop/CONTRIBUTING.md>`_
 
 - `Contributing to MONAI Model Zoo <https://github.com/AMD-Ecosystem/monai-model-zoo/blob/amd-develop/CONTRIBUTING.md>`_
+
+- `Contributing to geometric-nn-ops <https://github.com/ROCm/geometric-nn-ops/blob/main/CONTRIBUTING.md>`_
