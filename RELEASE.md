@@ -2,12 +2,6 @@
 
 AMD Life Science 26.10 adds geometric-nn-ops 1.0.0. The release adds fused triangle attention, the triangle multiplicative update, attention with pair bias, and a `hipequivariance-ops-torch` compatibility package for protein structure prediction models such as OpenFold3.
 
-```{note}
-    
-hipCIM, MONAI on ROCm, MONAI Model Zoo, and MONAILabel are available in the [AMD Life Science 26.08](https://rocm.docs.amd.com/projects/lifescience/en/docs-26.08/) release.
-
-```
-
 ## AMD Life Science release highlights
 
 The following are notable new features and improvements in AMD Life Science 26.10 since the release of 26.08. For detailed changes to individual components, see [detailed component changes](#detailed-component-changes).
@@ -39,15 +33,40 @@ The following table lists the versions of AMD Life Science components for AMD Li
                 <td><a href="#geometric-nn-ops-1-0-0">1.0.0</a></td>
                 <td><a href="https://github.com/ROCm/geometric-nn-ops"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
+            <tr>
+                <td>Imaging</td>
+                <td><a href="https://rocm.docs.amd.com/projects/hipCIM/en/docs-26.08/">hipCIM</a></td>
+                <td><a href="#hipcim-26-06-00">26.06.00</a></td>
+                <td><a href="https://github.com/AMD-Ecosystem/hipCIM"><i class="fab fa-github fa-lg"></i></a></td>
+            </tr>
+            <tr>
+                <td>AI/ML</td>
+                <td><a href="https://rocm.docs.amd.com/projects/monai/en/docs-26.08/">MONAI on ROCm</a></td>
+                <td><a href="#monai-on-rocm-1-6-0">1.6.0</a></td>
+                <td><a href="https://github.com/AMD-Ecosystem/monai"><i class="fab fa-github fa-lg"></i></a></td>
+            </tr>
+            <tr>
+                <td>AI/ML</td>
+                <td><a href="https://rocm.docs.amd.com/projects/monai-model-zoo/en/docs-26.08/">MONAI Model Zoo</a></td>
+                <td><a href="#monai-model-zoo-26-08">26.08</a></td>
+                <td><a href="https://github.com/AMD-Ecosystem/monai-model-zoo"><i class="fab fa-github fa-lg"></i></a></td>
+            </tr>
+            <tr>
+                <td>AI/ML</td>
+                <td><a href="https://rocm.docs.amd.com/projects/monailabel/en/docs-26.08/">MONAILabel</a></td>
+                <td><a href="#monailabel-0-8-5">0.8.5</a></td>
+                <td><a href="https://github.com/AMD-Ecosystem/monailabel"><i class="fab fa-github fa-lg"></i></a></td>
+            </tr>
         </tbody>
     </table>
 </div>
 
 ```{note}
 
-hipCIM, MONAI on ROCm, MONAI Model Zoo, and MONAILabel are available in the [AMD Life Science 26.08](https://rocm.docs.amd.com/projects/lifescience/en/docs-26.08/) release.
+hipCIM, MONAI on ROCm, MONAI Model Zoo, and MONAILabel have been available since the [AMD Life Science 26.08](https://rocm.docs.amd.com/projects/lifescience/en/docs-26.08/) release. There are no changes to those components in the current release.
 
 ```
+
 
 ## Detailed component changes
 
